@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+@media screen and (max-width: 600px) {
+   .container{
+     background-color: #f2f2cd;
+   }
+   .row{
+     width: auto;
+   }
+   .row > h1{
+     font-size: 24px;
+     text-align: center;
+     
+   }
+
+
+   #lezioni .row>.left,
+   #lezioni .row>.right{
+     width: 100%;
+     display: block;
+     text-align: center;
+   }
+
+   #lezioni .row img {
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    height: 30%;
+  }
+    
+
+}
