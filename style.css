@@ -100,6 +100,16 @@ img {
     width: 30%;
     height: 30%;
   }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #why{
+    background-color: #f2f2cd;
+  }
     
 
 }
